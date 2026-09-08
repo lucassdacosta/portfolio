@@ -98,8 +98,6 @@ export function Home() {
                     <h2 className="text-xl sm:text-2xl uppercase font-bold">Projetos</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto max-w-5xl pt-4 mb-10">
                         <Projects description="Sistema de barbearia, desenvolvido para a ROCCA BARBEARIA. Esse projeto possui agendamentos, barbeiros, clientes, etc. " title="ROCCA BARBEARIA" isAvailable={false} />
-                        <Projects description="Sistema desenvolvido para a escola multidisciplinar DoMovimento. Possui, página inicial de acesso, área do aluno e área do professor." title="DoMovimento" isAvailable={true} />
-                        <Projects description="Um sistema de finanças desenvolvido para organizar todo a movimentação financeira do cliente." title="Financorp" isAvailable={true} />
                     </div>
                 </section>
 
