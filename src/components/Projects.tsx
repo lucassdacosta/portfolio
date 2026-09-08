@@ -30,10 +30,10 @@ export function Projects({ image, title, description, link, isAvailable }: Props
                         <h2 className="text-lg sm:text-xl font-semibold mb-2">{title}</h2>
                         <p className="text-xs sm:h-24">{description}</p>
                         <div className="text-xs text-green-500 mt-4 sm:mt-8 mr-2 items-center justify-end flex gap-2 pb-2 sm:pb-0">
-                            <button className="flex items-center group">
-                                ver projeto{link}
+                            <a href={link} className="flex items-center group">
+                                ver projeto
                                 <IoIosArrowForward size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
