@@ -68,7 +68,7 @@ export function Home() {
 
                 <section id="ability" className="scroll-mt-50 mx-auto max-w-5xl px-6 pt-10 mb-10">
                     <h2 className="text-xl sm:text-2xl uppercase mb-3 font-bold">Habilidades Técnicas</h2>
-                    <div className="flex flex-wrap gap-4 sm:gap-6 mb-10">
+                    <div className="flex flex-wrap lg:flex-nowrap gap-2 sm:gap-6 mb-10">
                         <HardSkills type="javascript" />
                         <HardSkills type="react" />
                         <HardSkills type="tailwindcss" />
@@ -79,7 +79,7 @@ export function Home() {
                         <HardSkills type="python" />
                     </div>
                     <h2 className="text-xl sm:text-2xl uppercase font-bold mb-3">Habilidades Interpessoais</h2>
-                    <div className="flex flex-wrap gap-4 sm:gap-6 mb-10">
+                    <div className="flex flex-wrap lg:flex-nowrap gap-2 sm:gap-6 mb-10">
                         <SoftSkills type="communication" />
                         <SoftSkills type="teamwork" />
                         <SoftSkills type="problemsolving" />
