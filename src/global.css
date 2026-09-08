@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+* {
+    cursor: default;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+@theme{
+    --color-white: #e9ecef;
+    --color-gray-800: #343a40;
+    --color-gray-900: #212529;
+    --color-green-500: #89fc00;
+
+    --color-yellow-js: #deb808;
+    --color-green-node: #339933;
+    --color-blue-ts: #3178C6;
+    --color-blue-tailwind: #06B6D4;
+    --color-blue-react: #61DBFB;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(-15deg); }
+    30% { transform: rotate(12deg); }
+    45% { transform: rotate(-10deg); }
+    60% { transform: rotate(8deg); }
+    75% { transform: rotate(-4deg); }
+    90% { transform: rotate(2deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.padlock-shake:hover .padlock {
+    animation: shake 0.9s ease-in-out;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes aparecer-contrario{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-aparecer {
+    animation: aparecer 0.8s ease-out forwards;
+}
+
+.animate-aparecer-contrario{
+    animation: aparecer-contrario 0.8s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #242423;
+}
