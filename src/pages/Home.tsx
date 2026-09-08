@@ -41,13 +41,9 @@ export function Home() {
                                 <span className="text-2xl sm:text-3xl font-semibold text-green-500">2+</span>
                                 <p>anos de experiência</p>
                             </div>
-                            <div className="border-r-1 border-gray-600 p-2 flex-1">
-                                <span className="text-2xl sm:text-3xl font-semibold text-green-500">4</span>
+                            <div className="border-gray-600 p-2 flex-1">
+                                <span className="text-2xl sm:text-3xl font-semibold text-green-500">1</span>
                                 <p>Projetos desenvolvidos</p>
-                            </div>
-                            <div className="p-2 flex-1">
-                                <span className="text-2xl sm:text-3xl font-semibold text-green-500">2</span>
-                                <p>Parceiros</p>
                             </div>
                         </div>
                     </div>
