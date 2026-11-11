@@ -26,7 +26,7 @@ export function Home() {
                             </h1>
 
                             <h2 className="text-xl sm:text-2xl">
-                                Desenvolvedor Full Stack
+                                Desenvolvedor Front-End
                             </h2>
 
                             <p className="max-w-md text-balance text-sm sm:text-base">
